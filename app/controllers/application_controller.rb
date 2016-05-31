@@ -6,4 +6,7 @@ class ApplicationController < ActionController::Base
   def hello
     render text: 'hi there'
   end
+
+  def index
+  end
 end
